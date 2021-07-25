@@ -20,7 +20,7 @@ CCFLAGS=-Ofast
 
 
 # define all programs
-PROGRAMS = cputemp
+PROGRAMS = cputemp autofan
 SOURCES = ${PROGRAMS:=.c}
 
 all: ${PROGRAMS}
